@@ -20,13 +20,13 @@ left_column, center_column, right_column = st.columns([1,1,1])
 base_fechados = base[base["Status"].isin(["Em andamento", "Finalizado"])]
 base_andamento = base[base["Status"] == "Em andamento"]
 
-criar_card("oportunidades.png", f"{base["Código Projeto"].count()}", "Oportunidades", left_column)
-criar_card("projetos_fechados.png", f"{base_fechados["Código Projeto"].count()}", "Projetos Fechados", center_column)
-criar_card("em_andamento.png", f"{base_andamento["Código Projeto"].count()}", "Em Andamento", right_column)
+criar_card("oportunidades.png", f"{base['Código Projeto'].count()}", "Oportunidades", left_column)
+criar_card("projetos_fechados.png", f"{base_fechados['Código Projeto'].count()}", "Projetos Fechados", center_column)
+criar_card("em_andamento.png", f"{base_andamento['Código Projeto'].count()}", "Em Andamento", right_column)
 
-criar_card("total_orcado.png", f"R${base_fechados["Valor Orçado"].sum():,}", "Total Orçado", left_column)
-criar_card("total_pago.png", f"R${base_fechados["Valor Negociado"].sum():,}", "Total Pago", center_column)
-criar_card("desconto.png", f"R${base_fechados["Desconto Concedido"].sum():,}", "Total Desconto", right_column)
+criar_card("total_orcado.png", f"R${base_fechados['Valor Orçado'].sum():,}", "Total Orçado", left_column)
+criar_card("total_pago.png", f"R${base_fechados['Valor Negociado'].sum():,}", "Total Pago", center_column)
+criar_card("desconto.png", f"R${base_fechados['Desconto Concedido'].sum():,}", "Total Desconto", right_column)
 
 
 
