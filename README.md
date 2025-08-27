@@ -18,3 +18,7 @@
     <li>Pandas</li>
     <li>SQLAlchemy</li>
 </ul>
+<br>
+<p>Clique aqui e Acesse o App</p>
+<a href="https://appsteamlit-pinheirodevpython.streamlit.app/" target="_blank">AppStreamlit</a>
+<br>
