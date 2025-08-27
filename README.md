@@ -20,5 +20,5 @@
 </ul>
 <br>
 <p>Clique aqui e Acesse o App</p>
-<a href="https://appsteamlit-pinheirodevpython.streamlit.app/" target="_blank">AppStreamlit</a>
+<a href="https://appsteamlit-mqgydqrwebq6kkfa9rqrpd.streamlit.app/" target="_blank">AppStreamlit</a>
 <br>
