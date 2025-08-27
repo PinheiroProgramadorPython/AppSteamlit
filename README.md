@@ -7,10 +7,10 @@
 <p>Aplicativo feito com a Interface bonita e prática do Streamlit</p>
 <br>
 <h4>Faça Login no Aplicativo</h4>
-<p>Dados de Acesso:
-    email: visitante@gmail.com
-    senha: app123
-</p>
+<ul>Dados de Acesso:</ul>
+    <li>email: visitante@gmail.com</li>
+    <li>senha: app123</li>
+
 <h3>Tecnologias Usadas</h3>
 <ul>
     <li>Python</li>
